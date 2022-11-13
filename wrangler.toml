@@ -1,0 +1,11 @@
+name = "storage_router"
+main = "src/index.ts"
+compatibility_date = "2022-06-30"
+
+account_id = "9f106c605b195caeac812cf68df6997f"
+workers_dev = false
+
+[[r2_buckets]]
+binding = "MY_BUCKET"
+bucket_name = "ftp"
+preview_bucket_name = "developstorage"
